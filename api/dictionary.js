@@ -1,5 +1,5 @@
 // TODO: create database connection
-const DICT_ITEMS: DictionaryItem[] = [
+const DICT_ITEMS = [
   { id: '1', name: 'Sample dict item 1' },
   { id: '2', name: 'Sample dict item 2' },
   { id: '3', name: 'Sample dict item 3' },
