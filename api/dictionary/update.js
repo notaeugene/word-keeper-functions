@@ -9,7 +9,7 @@ const handler = async (req, res) => {
   const { id } = req.query;
   const { body: { name, translation, examples } } = req;
   const doc = { name, translation, examples };
-  const updatedDoc = await collection.updateOne(
+  await collection.updateOne(
     { _id: ObjectId(id) },
     { $set: doc }
   );
